@@ -12,10 +12,10 @@
 8. Hello, World!  
   
       
-> <操作備註>  
+> -- 操作備註 --  
 (1) 新版本為佳  
 (2) 建議以簡易console app為測試範例，若是Web app則尚需增加指令：-p [machine_port]:[container_port]  
-(3) 記得更改.NET版本、專案及DLL名稱。特別注意該檔案無「副檔名」。  
+(3) 記得更改.NET版本、專案及DLL名稱；特別注意該檔案無「副檔名」  
 (4) 該步驟為建制忽略檔，若省略該步驟亦可成功操作  
 (5) 移動當前路徑指令為：cd [your_project_directory]  
 (6) 「-t」為標註tag name，「.」為指定當前路徑位置，[your_image_name]依喜好自行輸入  
