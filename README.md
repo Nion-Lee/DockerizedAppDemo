@@ -1,5 +1,8 @@
 # DockerizedAppDemo
-此專案示例.NET App容器化，版本使用最新的Visual Studio 2022以及.NET 6
+此專案示例.NET App容器化，版本使用最新的Visual Studio 2022以及.NET 6。  
+藉由步驟「撰寫Docker文件 -> 建制映像檔 -> 運行至容器上」來執行。
+
+<br /> 
 
 【操作步驟】
 1. 本機先行安裝好Docker
@@ -12,7 +15,7 @@
 8. Hello, World!
 <br /> 
 
->*(1) 新版本為佳  
+>(1) 新版本為佳  
 (2) 建議以簡易console app為測試範例，若是Web app則尚需增加指令：-p [machine_port]:[container_port]  
 (3) 記得更改.NET版本、專案及DLL名稱；特別注意該檔案無「副檔名」  
 (4) 該步驟為建制忽略檔，若省略該步驟亦可成功操作  
