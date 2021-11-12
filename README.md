@@ -7,12 +7,12 @@
 【操作步驟】
 1. 本機先行安裝好Docker
 2. 以任意方式創建一.NET應用程式
-3. 於該專案路徑下，創建名為「Dockerfile」的檔案，並複製貼上本次範例之內容
-4. 於該專案路徑下，創建名為「.dockerignore」的檔案，並複製貼上本次範例之內容
+3. 於該專案路徑下，創建名為「Dockerfile」的檔案，並複製貼上本次範例內容
+4. 於該專案路徑下，創建名為「.dockerignore」的檔案，並複製貼上本次範例內容
 5. 開啟CMD，移至專案檔路徑位置
 6. 輸入指令：docker build -t [your_image_name] .
 7. 輸入指令：docker run -it --rm [your_image_name] [your_container_name]
-8. Hello, World!
+8. Hello, D!
 <br /> 
 
 >(1) 新版本為佳  
