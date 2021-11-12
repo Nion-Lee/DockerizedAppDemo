@@ -12,7 +12,7 @@
 5. 開啟CMD，移至專案檔路徑位置
 6. 輸入指令：docker build -t [your_image_name] .
 7. 輸入指令：docker run -it --rm [your_image_name] [your_container_name]
-8. Hello, D!
+8. Hello, Docker!
 <br /> 
 
 >(1) 新版本為佳  
