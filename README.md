@@ -11,7 +11,7 @@
 4. 於該專案路徑下，創建名為「.dockerignore」的檔案，並複製貼上本次範例內容
 5. 開啟CMD，移至專案檔路徑位置
 6. 輸入指令：docker build -t [your_image_name] .
-7. 輸入指令：docker run -it --rm [your_image_name] [your_container_name]
+7. 輸入指令：docker run -it --rm --name [your_container_name] [your_image_name]
 8. Hello, Docker!
 <br /> 
 
@@ -21,5 +21,5 @@
 (4) 該步驟為建制忽略檔，若省略該步驟亦可成功操作  
 (5) 移動當前路徑指令為：cd [your_project_directory]  
 (6) 「-t」為標註tag name，「.」為指定當前路徑位置，[your_image_name]依喜好自行輸入  
-(7) 「-i」為開啟控台互動，「-t」為pseudo-TTY，「--rm」為程式結束後即刪除該容器，[your_container_name]依喜好自行輸入  
+(7) 「-i」為開啟控台互動，「-t」為pseudo-TTY，「--rm」為程式結束後即刪除該容器，「--name」為幫該容器取名，[your_container_name]依喜好自行輸入  
 (8) 操作成功！  
